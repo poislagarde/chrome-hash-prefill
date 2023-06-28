@@ -1,0 +1,16 @@
+{
+  "name": "Hash Prefill",
+  "description": "Pre-fill form fields via URL hash parameters",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
